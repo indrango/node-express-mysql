@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/indrango/node-express-mysql#readme",
   "dependencies": {
+    "body-parser": "^1.15.1",
     "ejs": "^2.4.1",
     "express": "^4.13.4",
+    "method-override": "^2.3.6",
     "mysql": "^2.10.2",
     "path": "^0.12.7"
   }
