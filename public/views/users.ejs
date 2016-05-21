@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Node Express MySQL</title>
+  </head>
+  <body>
+    <h1>Hello MySQL</h1>
+    <br>
+    <h3>Isi table : </h3>
+    <ul>
+      <% users.forEach(function(user) { %>
+        <li><%= user.id %> - <%= user.username %> - <%= user.password %></li>
+      <% }); %>
+    </ul>
+  </body>
+</html>
